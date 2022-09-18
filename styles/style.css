@@ -37,6 +37,7 @@ img {
     height: 300px;
     width: auto;
     margin-left: 0px;
+    box-shadow: 0 0 20px #000000;
 
 }
 
@@ -46,6 +47,11 @@ h1 {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 60px;
+    /* box-shadow: 3px 3px 3px 3px black; */
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 p {
