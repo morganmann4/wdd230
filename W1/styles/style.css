@@ -1,0 +1,58 @@
+
+body{
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 18px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #1fa1c2;
+    color: #ffffff;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+main {
+    padding: 1rem;
+    margin-left: 280px;
+
+}
+
+footer {
+    background-color: #1fa1c2;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: .9rem;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    margin-left: 0px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.currentDate {
+    text-decoration: underline;
+}
+
