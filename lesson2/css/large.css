@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1028px){
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body{font-size: 16px;}
+
+.hierarchy {
+    grid-column: span 1;
+}
+
+.fitts {
+    grid-column: span 1;
+}
+
+.design {
+    grid-column: span 1;
+}
+}
