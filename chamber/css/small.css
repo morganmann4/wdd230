@@ -1,0 +1,191 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+/*----------- HEADER --------------*/
+img {
+    margin: 0 auto;
+}
+.headContainer {
+    letter-spacing: 1pt;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(207,201,208);
+
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles h1 {
+	font-size: 1rem;
+	margin-bottom: 2px;
+    padding: 3px;
+    color: #dd8219;
+
+    
+}
+
+.slogan {
+	letter-spacing: 2pt;
+    color: black;
+	font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.currentDayContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.75rem;
+	background-color: rgb(207,201,208);
+}
+
+
+
+/*----------- NAVIGATION --------------*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b14caf;
+    color: black;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(56, 55, 55);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display:none;
+    background-color: #b655b4;
+
+    
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul.open {
+    display:block;
+    
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+
+
+.pageGrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 1%;
+	margin-bottom: 2rem;
+}
+
+.hero {
+    grid-row: 1;
+}
+.event {
+    grid-row: 2;
+}
+.weather {
+    grid-row: 3;
+}
+.join {
+    grid-row: 4;
+}
+.newsRelease {
+    grid-row: 5;
+}
+.spotlight1 {
+    grid-row: 6;
+}
+.spotlight2 {
+    grid-row: 7;
+}
+
+.event, .weather, .join, .hero, .spotlight1, .spotlight2, .newsRelease {
+    font-size: .8rem;
+	background-color: #E5E5E5;
+    border: 1px solid #cfcfcf; 
+    color: black;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: rgb(207,201,208);
+    padding: .5rem;
+    text-align: center;
+}
+
+footer h1, footer h2 {
+    margin: 5px;
+    font-size: 16px;
+    color: #dd8219;
+
+}
+
+.copyright {
+    color: black;
+
+}
