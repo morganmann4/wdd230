@@ -28,7 +28,7 @@ try {
 
 //////////Banner/////////////
 const dayNum = date.getDay();
-if(dayNum == 1 ||dayNum == 3){
+if(dayNum == 1 || dayNum == 3){
   document.querySelector("#banner").textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
 }
 

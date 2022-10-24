@@ -22,11 +22,12 @@ img {
 
 
 #banner {
+    /* display: block; */
     background-color: #c962e9;
     padding: .5rem 0;
     display: block;
-}
 
+}
 
 .headContainer {
     letter-spacing: 1pt;
@@ -142,7 +143,6 @@ main {
     min-height: 10rem;
 }
 
-main figure.myphoto img {width:100%}
 
 
 .pageGrid {
