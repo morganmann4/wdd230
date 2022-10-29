@@ -45,7 +45,7 @@ img {
 }
 
 .titles h1 {
-	font-size: 1rem;
+	font-size: 30px;
 	margin-bottom: 2px;
     padding: 3px;
     color: black
@@ -61,12 +61,13 @@ img {
 
 }
 
-.currentDayContainer {
+.currentDayContainer, .visit-label {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 0.75rem;
 	background-color: #bcbebf;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -238,3 +239,73 @@ footer h1, footer h2 {
     background-color: #facd34;
 
 }
+
+
+/*---------DISCOVER PAGE -----------*/
+
+.discover-item {
+    margin: auto;
+    color: black;
+    border: 1px solid grey;
+    margin-top: 2em;
+    background-color: #E5E5E5;
+    border: 1px solid #cfcfcf;
+    color: black;
+    padding: 2%;
+    
+}
+
+.discover-item img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    
+
+}
+
+.discover-item h2 {
+    text-align: center;
+}
+
+.discover-facts{
+    background-color: #bcbebf;
+    display: flex;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid grey;
+}
+
+.discover-facts p {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+ .discover-facts p {
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.discover-facts h1 {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.discover-item h2 {
+    margin-bottom: 10px;
+}
+
+.discover-item p {
+    margin-top: 5px;
+}
+.visit-label{
+    margin-bottom: 0px;
+    margin-top: 2rem;
+}
+
+.discover-item img:hover {
+    box-shadow: 0 4px 5px 2px rgb(95, 95, 95);
+  }

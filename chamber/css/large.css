@@ -71,7 +71,18 @@ nav ul li a{
     
 }
 
+/*----------- DISCOVER PAGE --------------*/
 
+
+.discover-item img {
+    width: 300px;
+    height: auto;
+
+}
+
+.discover-item p {
+    font-size: 18px;
+}
 /*----------- FOOTER --------------*/
 /* */
 

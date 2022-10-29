@@ -7,11 +7,7 @@
     
     
     /*----------- HEADER --------------*/
-    
-    .titles h1 {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
+     
     
     .slogan {
         font-size: .7rem;
@@ -118,4 +114,28 @@
         grid-column: 1/4;
         grid-row: 2;
     }
+
+    /*----------- DISCOVER PAGE --------------*/
+
+    .discover-item{
+        display: flex;
+
+    }
+    .discover-item img {
+        width: 250px;
+        height: auto;
+    
+    }
+
+    .discover-item p {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* .discover-item {
+        padding: 10px;
+
+    } */
+
     } /* end of media query */
