@@ -1,13 +1,13 @@
 
 :root {
-	--back: #0d95ba;
-  --back2: #03c6fc;
+	--back: #3c416e;
+  --back2: #786fed;
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
-	--border: hsl(0,0%,20%);
-	--borderlight: hsl(0,0%,33%);
+	--border: #1c1c1c;
+	--borderlight: #3d3d3d;
 	--shadow: hsl(0,0%,50%);
-	--zebra: hsl(0, 0%, 93%, 1);
+	--zebra: #d4d4d4;
 }
 
 h1 {
@@ -43,7 +43,7 @@ tr:first-child th, .highlight {
 th, td {
 	padding: 10px 30px;
 	border: 2px solid var(--borderlight);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 th {
@@ -52,7 +52,6 @@ th {
 
 td {
 	text-align: center;
-    background-color: #dedede;
 }
 
 tbody tr:nth-child(even) {
