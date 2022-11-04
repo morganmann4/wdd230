@@ -41,9 +41,9 @@ tr:first-child th, .highlight {
 }
 
 th, td {
-	padding: 10px 18px;
+	padding: 10px 30px;
 	border: 2px solid var(--borderlight);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 th {
@@ -52,6 +52,7 @@ th {
 
 td {
 	text-align: center;
+    background-color: #dedede;
 }
 
 tbody tr:nth-child(even) {
