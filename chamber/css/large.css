@@ -84,7 +84,12 @@ nav ul li a{
     font-size: 18px;
 }
 /*----------- FOOTER --------------*/
-/* */
+
+
+/* ------JOIN------*/
+form label.sbs {
+    padding: .4rem 0;
+}
 
 
 

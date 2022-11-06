@@ -43,3 +43,8 @@ if (numVisits !== 0){
   visitDisplay.textContent = " This is your first visit!";
 
 }
+
+
+// Current Date and Time //
+
+document.getElementById(".currDateTime").value = date_time;
