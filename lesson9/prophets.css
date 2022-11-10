@@ -20,7 +20,7 @@ h1 {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   
 .cards section {
@@ -42,6 +42,7 @@ h1 {
 
   img {
     width: auto;
+    max-width: 350px;
     height: 350px;
     border: 1px solid black;
     margin-bottom: .4rem;
