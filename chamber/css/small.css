@@ -383,3 +383,91 @@ form label.top input:required:valid {
     background-color: #e4e6e7;
     padding: 1rem;
 }
+
+
+  /*----------- DIRECTORY --------------*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-bottom: 1rem;
+  }
+  
+.grid section {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #e4e6e7;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px grey;
+  }
+
+  .grid img{
+    margin-top: 5px;
+    padding: .25rem;
+    max-width: 220px;
+	max-height: 65px;
+    min-height: 48px;
+    background-color: white;
+  }
+
+  .grid p {
+    margin: 0 auto;
+    padding: .3rem 0rem;
+    font-size: 16px;
+  }
+
+  .grid h2 {
+    margin: 0;
+    padding: .75rem 0rem;
+    font-size: 1rem;
+  }
+
+
+  .list {
+	display: flex;
+	flex-direction: column;
+    margin-bottom: 1rem;
+
+
+   
+}
+.list img {
+    display: none;
+}
+
+.list section {
+	align-items: center;
+	justify-content: left;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 10px;
+    background-color: #e4e6e7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.list h2 {
+    font-size: 18px;
+}
+
+.list p {
+    margin-left: auto;
+}
+
+.display-options {
+    text-align: center;
+    justify-content: center;
+}
+
+.display-options button {
+    padding: 10px 20px;
+    margin: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}

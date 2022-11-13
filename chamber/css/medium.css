@@ -138,4 +138,20 @@
 
     } */
 
+    
+  .list {
+	display: flex;
+	flex-direction: column;
+   
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+    flex-direction: row;
+	justify-content: left;
+    background-color: #e4e6e7;
+}
+
+
     } /* end of media query */

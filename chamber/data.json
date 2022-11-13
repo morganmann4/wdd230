@@ -1,0 +1,76 @@
+{
+    "business":[
+    {
+      "name": "Vensure Employer Services",
+      "address": "2600 W Geronimo Plc, Ste 100 Chandler AZ 85224",
+      "number": "(800) 409-8958",
+      "membership": "bronze",
+      "website": "https://vensure.com",
+      "image": "bus-vensure.jpg"
+    },
+    {
+        "name": "Medicus IT",
+        "address": "24053 S Arizona Ave Chandler AZ 85248",
+        "number": "(480) 812-9114",
+        "membership": "bronze",
+        "website": "https://medicusit.com/",
+        "image": "bus-med.png"
+      },
+    {
+        "name": "North & Co",
+        "address": "25 S Arizona Pl # 325 C Chandler AZ 85225",
+        "number": "(602) 714-7000",
+        "membership": "bronze",
+        "website": "http://northandco.com/",
+        "image": "bus-north.png"
+      },
+    {
+      "name": "Horseshoe Bend Energy",
+      "address": "1340 E Riggs Rd Chandler AZ 85249",
+      "number": "(480) 895-8234",
+      "membership": "bronze",
+      "website": "https://www.hsbenergy.com/",
+      "image": "bus-horse.webp"
+    },
+    {
+        "name": "Expirimax",
+        "address": "50 S 56th St Chandler AZ 85226",
+        "number": "(480) 824-2700",
+        "membership": "bronze",
+        "website": "https://www.experimax.com/",
+        "image": "bus-exp.png"
+      },
+      {
+        "name": "Kahuna Investments",
+        "address": "100 S Roosevelt Ave Chandler AZ 85226",
+        "number": "(480) 961-1382",
+        "membership": "bronze",
+        "website": "https://kahunainvestments.com/",
+        "image": "bus-kah.png"
+      },
+      {
+        "name": "Air Products and Chemicals",
+        "address": "275 S Price Rd Chandler AZ 85224",
+        "number": "(480) 391-6442",
+        "membership": "bronze",
+        "website": "https://www.airproducts.com",
+        "image": "bus-air.jpg"
+      },
+      {
+        "name": "Clover Leaf Networks",
+        "address": "15811 S 15th Plc, Phoenix AZ 85048",
+        "number": "(480) 467-4435",
+        "membership": "bronze",
+        "website": "https://cloverleafnetworks.com/",
+        "image": "bus-clov.png"
+    },
+      {
+        "name": "SPENGA",
+        "address": "1075 W Queen Creek Rd Ste 4 Chandler AZ 85248",
+        "number": "(480) 758-4977",
+        "membership": "bronze",
+        "website": "https://spenga.com",
+        "image": "bus-spenga.png"
+      }
+]
+}
