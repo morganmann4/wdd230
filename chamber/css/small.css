@@ -185,6 +185,10 @@ main {
     padding: 4%;
 }
 
+.event img, .weather img, .join img, .hero img, .spotlight1 img, .spotlight2 img, .newsRelease img {
+    margin-bottom: 5px;
+}
+
 .hero{
     position: relative;
     background-image: url(../images/des.jpg);
