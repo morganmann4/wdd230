@@ -151,7 +151,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	row-gap: 1%;
-	margin-bottom: 2rem;
+	margin-bottom: 6rem;
 }
 
 .hero {
@@ -178,7 +178,6 @@ main {
 }
 
 .event, .weather, .join, .hero, .spotlight1, .spotlight2, .newsRelease {
-    font-size: .8rem;
 	background-color: #E5E5E5;
     border: 1px solid #cfcfcf; 
     color: black;
@@ -218,14 +217,50 @@ main {
 }
 
 .hero button:hover {
-    background-color: #f1c944c5;
+    background-color: #e0b110;
 }
 
+.join button {
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #facd34;
+    margin-bottom: 3px;
+    
+}
+
+.join button:hover {
+    background-color: #e0b110;
+}
+
+#weather_icon {
+    width: 70px;
+    height: auto;
+    margin: 0;
+}
+
+.weather h2{
+    margin-bottom: 0px;
+}
+.statusContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #bbb;
+}
+
+.paragraph {
+    background-color: #bbb;
+    padding: 2px;
+
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #e4e6e7;
     padding: .5rem;
     text-align: center;
+    display: grid;
+    margin: auto;
 }
 
 footer h1, footer h2 {
@@ -309,10 +344,6 @@ footer h1, footer h2 {
 
 
   /*----------- FIELD --------------*/
-
-.join-heading {
-    text-align: center;
-}
 
 form fieldset {
     margin: 2rem 0;

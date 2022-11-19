@@ -38,10 +38,10 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 200px);
+        grid-template-rows: repeat(5, 1fr);
         gap: 1%;
         justify-content: center;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     
     }
     
@@ -76,7 +76,6 @@
     }
     
     .event, .weather, .join, .hero, .spotlight1, .spotlight2, .newsRelease {
-        font-size: .8rem;
         padding: 10px;
     }
     

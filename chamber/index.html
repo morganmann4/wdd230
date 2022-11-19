@@ -59,35 +59,32 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <picture class="hero-img">
-            <source media="(max-width: 400px)" srcset="images/hero-400.jpg">
-            <source media="(max-width: 650px)" srcset="images/hero-650.jpg">
-            <source media="(max-width: 900px)" srcset="images/hero-900.jpg">
-            <img src="images/heroSrc.jpg" alt="Hero Image">
-        </picture>
-        
         <h1>Home</h1>
         <div class="pageGrid">
             <div class="event">
-            <h2>Event</h2>
-            <p>Quickly whiteboard
-                cross-platform ROI
-                whereas enterprise.</p>
+            <h2>Ribbon Cutting</h2>
+            <div class="paragraph">
+            <p>Join us for the grand opening of the Diamond Shack, Thrusday at 1:00pm</p>
+            </div>
             </div>
 
             <div class="weather">
             <h2>Current Weather</h2>
-            <p class="status">Partly Cloudy</p>
-            <p>Temperature: <span id="temp">100</span>&deg;F</p>
-            <p>Wind Speed: <span id="speed">2.5</span>mph</p>
+            <div class="statusContainer">
+            <p class="status">Sunny</p>
+            <img id="weather_icon" alt="current weather">
+            </div>
+            <p>Temperature: <span id="temp"></span>&deg;F</p>
+            <p>Wind Speed: <span id="speed"></span>mph</p>
             <p><span id="chill"></span></p>
             </div>
 
             <div class="join">
             <h2>Join</h2>
-            <p>Quickly whiteboard
-                cross-platform ROI
-                whereas enterprise.</p>
+            <button>Join us</button>
+            <div class="paragraph">
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+            </div>
             </div>
 
             <div class="hero">
@@ -97,25 +94,30 @@
             </div>
 
             <div class="spotlight1">
-            <h2>Spotlight 1</h2>
-            <p>Quickly whiteboard
-                cross-platform ROI
-                whereas enterprise.</p>
+            <h2>Thankful Transport</h2>
+            <picture><img src="images/truck.webp" alt="truck" width="50%"></picture>
+            <div class="paragraph">
+            <p>"We get it there for you"</p>
+            <p>hello@thankfultransport.com</p>
+            <p>+999-9999-9999</p>
+            </div>
             </div>
 
             <div class="spotlight2">
-            <h2>Spotlight 2</h2>
-            <p>Quickly whiteboard
-                cross-platform ROI
-                whereas enterprise.
-            </p>
+            <h2>Code Primera</h2>
+            <div class="paragraph">
+            <p>An after school coding instructional program</p>
+            <p>contact@codeprimera.com</p>
+            <p>+999-9999-9999</p>
+            </div>
             </div>
 
             <div class="newsRelease">
             <h2>News release</h2>
-            <p>Completely transition covalent functionalities before professional collaboration and
-                idea-sharing. Holisticly re-engineer seamless convergence and best-of-breed
-                methodologies. Dynamically mesh cutting-edge experiences through integrated webreadiness. Appropriately utilize</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. </p>
             </div>
         </div>
     </main>
@@ -147,6 +149,8 @@
 </footer>
 <script src="scripts/script.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/weather.js"></script>
+
 
 
 </body>
