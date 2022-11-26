@@ -48,3 +48,9 @@ if (numVisits !== 0){
 // Current Date and Time //
 
 document.getElementById(".currDateTime").value = date_time;
+
+
+// Join Button //
+document.getElementById("joinBtn").onclick = function () {
+    location.href = "../join.html";
+};

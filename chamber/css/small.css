@@ -348,6 +348,31 @@ footer h1, footer h2 {
 
 
   /*----------- FIELD --------------*/
+  .membershipInfo, .info{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .membershipInfo {
+    background-color: #e4e6e7;
+    border: 1px solid #bcbebf;;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .membershipInfo h3 {
+    margin-bottom: 5px;
+  }
+
+  .membershipInfo p {
+    margin-top: 5px;
+  }
+
+  .membership{
+    display: flex;
+  }
 
 form fieldset {
     margin: 2rem 0;
@@ -403,6 +428,10 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
+form input.submitBtn:hover {
+    background-color: #e8ba23;
+
+}
 form label.top input:required{
     border-left: grey solid 6px;
 }
@@ -417,7 +446,25 @@ form label.top input:required:valid {
     padding: 1rem;
 }
 
+  /*----------- CONTACT --------------*/
 
+.contactInfo {
+    justify-content: center;
+    align-items: center;
+}  
+
+.contactFieldset{
+    border: 1px solid grey;
+
+}
+
+.contactLegend {
+    color: grey;
+}
+
+.memberEmail{
+    margin-right: 20px;
+}
   /*----------- DIRECTORY --------------*/
   .grid {
     display: grid;
@@ -504,3 +551,13 @@ form label.top input:required:valid {
     border-radius: 10px;
     
 }
+  /*----------- CONTACT --------------*/
+
+  .contact {
+    background-color: #e4e6e7;
+    margin-bottom: 10px;
+  }
+  .contact p{
+    text-align: center;
+    padding-bottom: 15px;
+  }
