@@ -58,7 +58,7 @@ img {
     color: #facd34;
 	font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
-
+    display: flex;
 }
 
 .currentDayContainer, .visit-label {
@@ -135,6 +135,22 @@ nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2){
     display: block;
+}
+
+.social {
+	height: auto;
+    display: flex;
+    padding: 8px;
+    margin-left: auto;
+
+}
+
+.social img{
+    width: 30px;
+}
+
+.fa {
+    padding: 2px;
 }
 
 /*----------- MAIN --------------*/
