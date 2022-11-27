@@ -561,3 +561,7 @@ form label.top input:required:valid {
     text-align: center;
     padding-bottom: 15px;
   }
+
+  .companyContactInfo {
+    background-color: #e4e6e7;
+}

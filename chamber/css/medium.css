@@ -155,5 +155,22 @@
     background-color: #e4e6e7;
 }
 
+    /*----------- CONTACT PAGE --------------*/
+
+    .contactPageInfo {
+        display: flex;
+    }
+    .companyContactInfo {
+        display: grid;
+        background-color: #e4e6e7;
+    }
+    
+    iframe {
+        margin-right: 20px;
+    }
+    .companyInfo {
+        margin-left: 10px;
+    }
+
 
     } /* end of media query */

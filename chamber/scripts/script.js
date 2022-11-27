@@ -54,3 +54,7 @@ document.getElementById(".currDateTime").value = date_time;
 document.getElementById("joinBtn").onclick = function () {
     location.href = "../join.html";
 };
+
+document.getElementById("joinbutton").onclick = function () {
+  location.href = "../join.html";
+};
