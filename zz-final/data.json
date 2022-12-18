@@ -1,0 +1,12 @@
+{
+    "business":[
+        {
+            "id": "1",
+            "name": "strawberry"
+          },
+        {
+            "id": "2",
+            "name": "mango" 
+        }
+
+    ]}

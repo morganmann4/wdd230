@@ -1,8 +1,5 @@
 //ADD the key and change units to imperial
-// const apiURL = "//api.openweathermap.org/data/2.5/weather?q=Chandler&appid=25253facb291f55352ed60732489335a&units=imperial";
-
-const apiURL = "//api.openweathermap.org/data/2.5/forecast/daily?lat=33.1581&lon=-117.3506&cnt=3&appid=25253facb291f55352ed60732489335a&units=imperial";
-
+const apiURL = "//api.openweathermap.org/data/2.5/weather?q=Chandler&appid=25253facb291f55352ed60732489335a&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())

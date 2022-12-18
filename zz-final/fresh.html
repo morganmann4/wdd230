@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bountiful Foods Website WDD 230 Project">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<title>Bountiful Foods</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+        <div class="headContainer">
+            <div>
+            <img src="images/logo.webp"	alt="logo">
+            </div>
+            <div class="titles">
+                <h1>Bountiful Foods</h1>
+                    <div class="social">
+                        <a href="https://facebook.com" class="fa"><img src="images/facebook.jpg" alt="facebook"> </a>
+                        <a href="https://instagram.com" class="fa"><img src="images/instagram.png" alt="instagram"> </a> 
+                        <a href="https://twitter.com" class="fa"><img src="images/twitter.png" alt="twitter"> </a>                       
+                    </div>
+
+                </div>        
+            </div>
+        </div>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="fresh.html">Fresh</a></li>
+        <li><a href="about.html">About</a></li>    
+    </ul>
+</nav>
+
+    
+<!-- CONTENT HERE -->
+<main>
+    <h1 class="join-heading">Order Today!</h1>
+
+        <form id="form-submit" onsubmit="return false">
+            <fieldset>
+                <legend>Build Specialty Drink</legend>
+                <label class="top">First name:*<input type="text" name="fname" id="first-name" required></label>
+                <label class="top">Last name:*<input type="text" name="lname" id="last-name" required></label>
+                <label class="top">Email:*<input type="email" name="email" placeholder="someone@gmail.com" id="email" required></label>
+                <label class="top">Phone:<input type="tel" name="phone" placeholder="1235551234" id="phone"></label>
+
+                <label for="fruit">Choose a fruit:</label>
+                <select name="fruits" id="fruits">
+                </select>
+                <select name="fruits" id="fruits2">
+                </select>
+                <select name="fruits" id="fruits3">
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Special Insdivuctions</legend>
+                <textarea name="description" rows="4" cols="30" id="instructions"></textarea>
+            </fieldset>
+     
+
+
+            <button id="submitDrink">Place Order</button>
+
+        </form>
+
+                        
+        <div class="output">
+            <h3>Specialty Drink</h3>
+        
+
+                <div>
+                    <h3> Name: </h3>
+                    <p class= "nameout"></p>
+                </div>
+
+                <div>
+                    <h3> Email: </h3>
+                    <p class= "emailout"></p>
+                </div>
+
+                <div>
+                    <h3> Phone: </h3>
+                    <p class = "phoneout"></p>
+                </div>
+
+                <div>
+                    <h3> Fruit 1: </h3>
+                    <p class = "fruitout1"></p>
+                </div>
+
+                <div>
+                    <h3> Fruit 2: </h3>
+                    <p class = "fruitout2"></p>
+                </div>
+
+                <div>
+                    <h3> Fruit 3: </h3>
+                    <p class = "fruitout3"></p>
+                </div>
+
+                <div>
+                    <h3> Order Date: </h3>
+                    <p class = "dateout"></p>
+                </div>
+
+                <div>
+                    <h3> Message: </h3>
+                    <p class = "special"></p>
+                </div>
+
+                <div>
+                    <h3>Carbohydrates</h3>
+                    <p class="carbs">0</p>
+                </div>
+    
+             
+                <div>
+                    <h3>Protein</h3>
+                    <p class="proteins">0</p>
+                </div>
+    
+                <div>
+                    <h3>Fats</h3>
+                    <p class="fats">0</p>
+                </div>
+
+                
+                <div>
+                    <h3>Sugar</h3>
+                    <p class="sugar">0</p>
+                </div>
+               
+            
+                <div>
+                    <h3>Calories</h3>
+                    <p class="cals">0</p>
+                </div>  
+
+
+        </div>
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="info">
+        <div class="logo">
+        <img src="images/logo.webp" alt="logo">
+        </div>
+        <div class="location">
+            <h1>Bountiful Foods</h1>
+            <h2>1111 East Glacier Road</h2>
+            <h2>92008 Carlsbad, CA </h2>
+        </div>
+        <div class="contact">
+            <h2>info@bountifulfoods.org</h2>
+            <h2>1+(123)-456-78910</h2>
+            <div class="map"><a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1214999,-117.358015,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Map</a></div>
+
+        </div>
+
+    
+    <div class="copyright">
+        <p>©2022 Bountiful Foods <span id="currentYear"></span> | Morgan Mann | WDD 230 Project | Last Modification:  <span id="currenh3ate"></span></p>
+    </div>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/fruits.js"></script>
+
+
+
+</body>
+</html>

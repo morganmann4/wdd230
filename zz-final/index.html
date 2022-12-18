@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bountiful Foods Website WDD 230 Project">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<title>Bountiful Foods</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+        <div class="headContainer">
+            <div>
+            <img src="images/logo.webp"	alt="logo">
+            </div>
+            <div class="titles">
+                <h1>Bountiful Foods</h1>
+                    <div class="social">
+                        <a href="https://facebook.com" class="fa"><img src="images/facebook.jpg" alt="facebook"> </a>
+                        <a href="https://instagram.com" class="fa"><img src="images/instagram.png" alt="instagram"> </a> 
+                        <a href="https://twitter.com" class="fa"><img src="images/twitter.png" alt="twitter"> </a>                       
+                    </div>
+
+                </div>        
+            </div>
+        </div>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primaryNav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="about.html">About</a></li>    
+    </ul>
+</nav>
+   
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Home</h1>
+        <div class="pageGrid">
+            
+            <div class="welcome">
+                <h2>Welcome to bountiful foods</h2>
+                <p>We are a small business that specializes in organic, locally grown foods. 
+                    We are physically located in Carlsbad, 
+                    California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego
+                </p>
+                <button class="learn">Learn More</button>
+            </div>
+
+            <div class="order">
+                <div class="orderDiv">
+                <h2>Make a drink</h2>
+                <button id="createBtn" onclick="window.location.href='fresh.html';">Create Drink</button>
+                <p>Drinks ordered: <span id="drinkAmount">0</span></p>
+                </div>
+                <!-- <picture><img src="images/fruit.jpg"></picture> -->
+            </div>
+
+            <div class="feature">
+                <h2>Berry Drink</h2>
+                <picture><img src="images/berry.jpg"></picture>
+            </div>
+
+            <div class="feature1">
+                <h2>Strawberry Drink</h2>
+                <picture><img src="images/straw.jpg"></picture>
+            </div>
+
+            <div class="feature2">
+                <h2>Mango Drink</h2>
+                <picture><img src="images/mango.jpg"></picture>
+            </div>
+
+            <div class="cali">
+                <picture><img src="images/carlsbad.webp"></picture>
+                <h2>Carlsbad California</h2>
+                <p>Carlsbad is a city near San Diego, in California. It's known for Tamarack Surf Beach, 
+                    backed by the Carlsbad Sea Wall, and secluded South Carlsbad State Beach. The Legoland California theme park 
+                    includes rides, a water park and the SEA LIFE Aquarium. The Flower Fields is a seasonal attraction,
+                     with acres of flowers. Set in a canyon, the Leo Carrillo Ranch Historic Park is home to free-roaming peacocks</p>
+            </div>
+
+            <div class="weather">
+                <h2>Current Weather</h2>
+                <div class="statusContainer">
+                <p class="status">Sunny</p>
+                <img id="weather_icon" alt="current weather" src="images/placeholder.png">
+                </div>
+                <p>Temperature: <span id="temp"></span>&deg;F</p>
+                <p>Wind Speed: <span id="speed"></span>mph</p>
+                <p><span id="chill"></span></p>
+                </div>
+        </div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="info">
+        <div class="logo">
+        <img src="images/logo.webp" alt="logo">
+        </div>
+        <div class="location">
+            <h1>Bountiful Foods</h1>
+            <h2>1111 East Glacier Road</h2>
+            <h2>92008 Carlsbad, CA </h2>
+        </div>
+        <div class="contact">
+            <h2>info@bountifulfoods.org</h2>
+            <h2>1+(123)-456-78910</h2>
+            <div class="map"><a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1214999,-117.358015,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Map</a></div>
+
+        </div>
+
+    
+    <div class="copyright">
+        <p>©2022 Bountiful Foods <span id="currentYear"></span> | Morgan Mann | WDD 230 Project | Last Modification:  <span id="currentDate"></span></p>
+    </div>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/fruits.js"></script>
+
+
+</body>
+</html>
+    

@@ -1,0 +1,473 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto; 
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+/*----------- HEADER --------------*/
+img {
+    margin: 0 auto;
+}
+
+
+#banner {
+    background-color: #c962e9;
+    padding: .5rem 0;
+    display: block;
+}
+
+
+.headContainer {
+    letter-spacing: 1pt;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EDDDCD;
+
+}
+
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titles h1 {
+	font-size: 30px;
+    margin-right: 20px;
+    padding: 3px;
+    color: black
+}
+
+
+.social {
+	height: auto;
+    margin: 10px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.social img{
+    width: 35px;
+    margin: 0px 5px;
+}
+
+/* .fa {
+    padding: 2px;
+} */
+
+.slogan {
+	letter-spacing: 2pt;
+    color: #facd34;
+	font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.currentDayContainer, .visit-label {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.75rem;
+	background-color: #bcbebf;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/*----------- NAVIGATION --------------*/
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #84BE38;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(56, 55, 55);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display:none;
+    background-color: #84BE38;
+
+    
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul.open {
+    display:block;
+    
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0;
+    min-height: 10rem;
+}
+
+
+.pageGrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 1%;
+	margin-bottom: 6rem;
+}
+
+.welcome {
+    grid-row: 1;
+}
+.order {
+    grid-row: 2;
+}
+.feature {
+    grid-row: 3;
+}
+.feature1 {
+    grid-row: 4;
+}
+.feature2 {
+    grid-row: 5;
+}
+.cali {
+    grid-row: 6;
+}
+.weather {
+    grid-row: 7;
+}
+
+
+.welcome, .order, .feature1, .feature2, .feature, .cali, .weather {
+	background-color: #e4e6e7;
+    border: 1px solid #cfcfcf; 
+    color: black;
+    text-align: center;
+    padding: 4%;
+}
+
+.event img, .weather img, .join img, .hero img, .spotlight1 img, .spotlight2 img, .newsRelease img {
+    margin-bottom: 5px;
+}
+
+.order{
+    position: relative;
+    background-image: url(../images/fruit.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.orderDiv {
+    background-color: #EDDDCD;
+    border: 1px solid #EC6E55;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    /* position: absolute; */
+    text-align: center;
+    color: #facd34;
+    background-color: #5a5a5a;
+
+}
+
+.order button, #submitDrink {
+    font-family: "Roboto", "sans-serif";
+    background-color: #EC6E55;
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.order button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.join button {
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #84BE38;
+    margin-bottom: 3px;
+    
+}
+
+.join button:hover {
+    background-color: #e0b110;
+}
+
+#weather_icon {
+    width: 70px;
+    height: auto;
+    margin: 0;
+}
+
+.weather h2{
+    margin-bottom: 0px;
+}
+.statusContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.paragraph {
+    background-color: #bbb;
+    padding: 2px;
+
+}
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #EDDDCD;
+    padding: .5rem;
+    text-align: center;
+    display: grid;
+}
+
+footer h1, footer h2 {
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+
+}
+
+.copyright {
+    background-color: #84BE38;
+
+}
+
+  /*----------- FIELD --------------*/
+  .membershipInfo, .info{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .membershipInfo {
+    background-color: #e4e6e7;
+    border: 1px solid #bcbebf;;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .membershipInfo h3 {
+    margin-bottom: 5px;
+  }
+
+  .membershipInfo p {
+    margin-top: 5px;
+  }
+
+  .membership{
+    display: flex;
+  }
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #84BE38;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #e4e6e7;
+}
+
+form legend {
+    color: #84BE38;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #84BE38;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select{
+    /* -webkit-appearance: none; */
+    display: block;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: 1px solid black;
+    background-color: #84BE38;
+    color:white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: green;
+
+}
+form label.top input:required{
+    border-left: grey solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.join-app {
+    text-align: center;
+    background-color: #e4e6e7;
+    padding: 1rem;
+}
+
+  /*----------- CONTACT --------------*/
+
+.contactInfo {
+    justify-content: center;
+    align-items: center;
+}  
+
+.contactFieldset{
+    border: 1px solid grey;
+
+}
+
+.contactLegend {
+    color: grey;
+}
+.contactPageInfo {
+    margin: 30px 0px;
+    justify-content: center;
+}
+
+.memberEmail{
+    margin-right: 20px;
+}
+  
+  /*----------- CONTACT --------------*/
+
+  .contact {
+    /* background-color: #e4e6e7; */
+    margin-bottom: 10px;
+  }
+  .contact p{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .companyContactInfo {
+    background-color: #e4e6e7;
+    
+}
+
+
+/* ---- ABOUT ---- */
+
+.discover-facts{
+    background-color: #e4e6e7;
+    display: flex;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid grey;
+}
+
+.discover-facts p {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+ .discover-facts p {
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.discover-facts h1 {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.output {
+    background-color: #EDDDCD;
+    justify-content: center;
+    text-align: center;
+}
+
